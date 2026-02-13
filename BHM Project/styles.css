@@ -1,0 +1,107 @@
+#body{
+background-color: rgb(182, 215, 243);
+}
+
+#nav{
+background-color: #00356b;
+
+
+}
+
+#ul{
+    list-style-type: none;
+    display:flex;
+flex-direction:row;
+justify-content: space-evenly;
+
+    
+  
+}
+
+.anchor{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.anchor:hover{
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+#container{
+    border-radius: 5px;
+    background-color: white;
+    max-width: 200px;
+    padding: 10px;
+    margin-top: 75px;
+    border: 10px darkblue double;
+    
+    
+}
+
+#footer{ text-align: center;
+    font-color:#4c4a59;
+     margin-top: 600px;
+     font-size: 14px;
+}
+
+#container2{
+    border-radius: 5px;
+    background-color: white;
+    max-width: 275px;
+    padding: 10px;
+    display: flex;
+    float: right;
+  margin-left: 100px;
+  border-color: darkblue;
+  border: 5px solid;
+}
+
+#container3{
+    border-radius: 5px;
+    background-color: white;
+    max-width: 275px;
+    padding: 10px;
+    display: flex;
+    float: left;
+    margin-top:300px;
+    border-color: darkblue;
+  border: 5px solid;
+}
+
+#title{
+    text-align: center;
+    font-size: 40px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #00356b;
+}
+
+#container4{
+    border-radius: 5px;
+    background-color: white;
+    max-width: 400px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+     margin-top: 200px;
+    
+    
+    border-color: darkblue;
+  border: 10px double;
+}
+
+#NASA{
+    display: flex;
+  justify-content: center;
+}
+
+#bhmForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+     
+    background-color: #99caff;
+    border-radius: 15px;
+    
+}
